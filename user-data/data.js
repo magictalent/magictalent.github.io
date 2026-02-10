@@ -161,7 +161,7 @@ export const interests = [
 export const footer = [
   {
     label: "copyright-text",
-    data: ["Made with care by Vitalii Svyd"]
+    data: ["Made with care by magictalent"]
   }
 ];
 
@@ -172,9 +172,9 @@ export const contactLinks = [
     label: "(380) 93189 5441",
   },
   {
-    link: "mailto:vitalijsvid52@gmail.com",
-    icon: "fa-solid fa-envelope",
-    label: "vitalijsvid52@gmail.com",
+    link: "mailto:andi.toptalent@gmail.com",
+    icon: "fa-solid fa-envelope", 
+    label: "andi.toptalent@gmail.com",
   },
   {
     link: "https://github.com/magictalent",
@@ -182,7 +182,7 @@ export const contactLinks = [
     label: "github.com/magictalent",
   },
   {
-    link: "https://www.linkedin.com/in/vitalii-svyd-184095396b",
+    link: "https://www.linkedin.com/in/magictalent/",
     icon: "fa-brands fa-linkedin",
     label: "LinkedIn",
   },
