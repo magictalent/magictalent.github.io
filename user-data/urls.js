@@ -1,4 +1,4 @@
-const githubUsername = "magictalent";
+const githubUsername = "";
 const mediumUsername = "";
 const gitConnectedUsername = "";
 

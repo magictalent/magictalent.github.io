@@ -425,7 +425,12 @@ toggleSection("profile-card", Boolean(hasStack || hasGitHub || hasLeet));
 populateExp_Edu(experience, "experience");
 populateProjects(projects, "projects");
 populateExp_Edu(education, "education");
-populateInterests(interests, "interests");
+if (interests?.length) {
+  populateInterests(interests, "interests");
+  toggleSection("interests", true);
+} else {
+  toggleSection("interests", false);
+}
 
 populateLinks(footer, "footer");
 populateContactLinks(contactLinks, 'contact-links');

@@ -1,188 +1,182 @@
 export const bio = [
-  "Experienced in developing and maintaining web applications and integrating AI functionalities to enhance user engagement and decision-making processes. Offering abilities in full-stack development, machine learning integration, and scalable cloud-based solutions. Skilled in programming, responsive design, API integration, and version control systems to deliver innovative technological solutions."
+  "Senior full-stack developer with 10+ years of experience building web and mobile products across eCommerce, education, healthcare, and fintech. Strong focus on modern front-end development with React and Angular, backed by scalable back-end services using Node.js, Java/Spring, and cloud-native AWS architectures."
 ];
 
 export const skills = [
-  "Web application development",
-  "DevOps practices",
-  "API design and integration",
-  "Responsive design",
-  "Frontend and backend development",
-  "Mobile application development",
-  "Full-stack development",
-  "Project management",
-  "Campaign management",
-  "Version control: Git, Github"
+  "JavaScript",
+  "TypeScript",
+  "HTML5/CSS3",
+  "React",
+  "Redux",
+  "Angular",
+  "Vue",
+  "React Native",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Node.js",
+  "Express.js",
+  "Java",
+  "Spring Framework",
+  "Python",
+  "Django",
+  "Go",
+  "Ruby on Rails",
+  "MongoDB",
+  "GraphQL",
+  "AWS",
+  "Docker",
+  "Web3.js",
+  "Solidity",
+  "REST APIs",
+  "Scrum"
 ];
 
 export const experience = [
   {
-    title: "FULL-STACK DEVELOPER & AI SPECIALIST",
-    duration: "Feb 2023 - Present",
-    subtitle: "Freelancer | Ternopil, Ukraine",
+    title: "SENIOR FULL-STACK DEVELOPER",
+    duration: "May 2020 - May 2025",
+    subtitle: "RIGHTPOINT | San Francisco, USA",
     details: [
-      "Developed and maintained full-stack web applications using React, Node.js, and Django, enhancing user engagement by 30%",
-      "Implemented machine learning models for predictive analytics, improving decision-making processes for clients.",
-      "Integrated AI functionalities into web platforms, such as chatbots and recommendation systems, utilizing TensorFlow and scikit-learn.",
-      "Collaborated with cross-functional teams to design and deploy scalable solutions on AWS."
+      "Spearheaded front-end development of a smart price recommendations platform for retail and eCommerce clients using React and Angular.",
+      "Built an education web application from scratch with TypeScript, React, React Query, and Tailwind CSS.",
+      "Led delivery of a high-impact e-commerce mobile app, driving 60% higher engagement and 30% revenue growth in the first quarter.",
+      "Designed responsive mobile UI with React Native and Material UI.",
+      "Developed custom modules and themes for Drupal and Magento healthcare CMS platforms.",
+      "Implemented CI/CD pipelines with Travis and Jenkins for reliable releases.",
+      "Contributed to a scalable CRM using Node.js, Express, MongoDB, and React, and built server-side logic with Java and Spring.",
+      "Deployed serverless applications with AWS SAM, integrating S3 and SES for storage and notifications.",
+      "Designed highly available AWS solutions using EC2, S3, RDS, and VPC.",
+      "Delivered web apps and microservices with Go and Ruby on Rails."
     ],
-    tags: ["React", "Node.js", "Django", "TensorFlow", "scikit-learn", "AWS"],
+    tags: [
+      "React",
+      "Angular",
+      "TypeScript",
+      "React Query",
+      "Tailwind CSS",
+      "React Native",
+      "Material UI",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Java",
+      "Spring",
+      "AWS",
+      "Go",
+      "Ruby on Rails",
+      "Drupal",
+      "Magento",
+      "CI/CD"
+    ],
     icon: "suitcase"
   },
   {
-    title: "SOFTWARE & EMBEDDED SYSTEMS INTERN",
-    duration: "Jun 2020 - Jan 2023",
-    subtitle: "Tech Innovations Ltd. | New York, NY",
+    title: "FULL-STACK WEB AND BLOCKCHAIN DEVELOPER",
+    duration: "Oct 2017 - Feb 2020",
+    subtitle: "Graphite Docs | Dallas, USA",
     details: [
-      "Assisted in the development of embedded systems for industrial automation, programming microcontrollers using C/C++ and MATLAB.",
-      "Contributed to the design and testing of automated control systems, reducing system errors by 15%.",
-      "Collaborated with senior engineers to integrate embedded solutions with cloud-based platforms."
+      "Built decentralized applications including a decentralized exchange and a supply-chain tracking solution.",
+      "Developed secure Ethereum dApps in Solidity with peer-to-peer transactions and off-chain payment integration.",
+      "Implemented smart contracts for multi-signature wallets, automated market makers, and token issuance using Solidity, Rust, and Go.",
+      "Created NFT minting sites, marketplaces, and staking platforms supporting ERC-721 and ERC-1155.",
+      "Designed tokenomics and implemented PoW and PoS consensus models for a new cryptocurrency."
     ],
-    tags: ["C/C++", "MATLAB", "Embedded Systems", "Cloud Platforms"],
-    icon: "microchip"
+    tags: ["Solidity", "Ethereum", "Rust", "Go", "Web3.js", "NFT", "Smart Contracts"],
+    icon: "cube"
+  },
+  {
+    title: "FRONT-END DEVELOPER",
+    duration: "Aug 2012 - Mar 2017",
+    subtitle: "Monstar Lab | Tokyo, Japan",
+    details: [
+      "Built user interfaces with React, Redux, and modern front-end tooling.",
+      "Integrated backend APIs using Angular HttpClient for reliable data flows.",
+      "Delivered real-time features with WebSockets and RxJS observables.",
+      "Implemented data visualizations with D3.js and ngx-charts.",
+      "Developed custom themes and plugins for WordPress and Shopify.",
+      "Partnered with UX designers to deliver responsive web experiences and marketing microsites."
+    ],
+    tags: ["React", "Redux", "Angular", "RxJS", "D3.js", "WordPress", "Shopify"],
+    icon: "code"
   }
 ];
 
 export const education = [
   {
-    title: "BACHELOR'S DEGREE",
-    duration: "",
-    subtitle: "Computer Science | Kyiv Engineering Technical Institute",
-    details: [],
-    tags: [],
+    title: "BACHELOR'S DEGREE IN COMPUTER SCIENCE",
+    duration: "2008 - 2012",
+    subtitle: "The Tokyo University | Japan",
+    details: [
+      "Web Development",
+      "Electrical and Computer Engineering",
+      "Information Technology",
+      "Human-Computer Interaction",
+      "Artificial Intelligence"
+    ],
+    tags: ["Computer Science", "HCI", "AI", "Information Technology"],
     icon: "graduation-cap"
   }
 ];
 
 export const projects = [
   {
-    title: "AI-POWERED WEB ANALYTICS PLATFORM",
-    duration: "",
+    title: "SMART PRICE RECOMMENDATIONS PLATFORM",
+    duration: "2020 - 2025",
     details: [
-      "Built a full-stack analytics dashboard using React, Node.js, Django, and PostgreSQL",
-      "Implemented machine learning models (TensorFlow, scikit-learn) to predict user behavior and trends",
-      "Reduced decision-making time by 30% through real-time insights and automated reporting"
+      "Built a React and Angular front end for smart pricing workflows used by retail and eCommerce teams.",
+      "Delivered a scalable TypeScript architecture with React Query and Tailwind CSS.",
+      "Improved data-driven decision-making with fast, responsive interfaces."
     ],
-    tags: ["React", "Node.js", "Django", "PostgreSQL", "TensorFlow", "scikit-learn", "AI"],
+    tags: ["React", "Angular", "TypeScript", "React Query", "Tailwind CSS"],
   },
   {
-    title: "INTELLIGENT CHATBOT SYSTEM",
-    duration: "",
+    title: "E-COMMERCE MOBILE APP",
+    duration: "2020 - 2025",
     details: [
-      "Designed and deployed an AI chatbots using NLP techniques for customer support automation",
-      "Integrated REST APIs and third-party services to enable real-time responses",
-      "Improved customer engagement and reduced support workload by 40%"
+      "Led development of a React Native mobile app with Material UI design system.",
+      "Increased user engagement by 60% and revenue by 30% within the first quarter.",
+      "Optimized navigation, onboarding, and checkout flows for higher conversion."
     ],
-    tags: ["AI Chatbot", "NLP", "REST APIs"],
+    tags: ["React Native", "Material UI", "Mobile", "eCommerce"],
   },
   {
-    title: "EMBEDDED-TO-CLOUD MONITORING SYSTEM",
-    duration: "",
+    title: "BLOCKCHAIN DAPPS & NFT PLATFORMS",
+    duration: "2017 - 2020",
     details: [
-      "Developed firmware in C/C++ for microcontrollers and connected devices to cloud platforms",
-      "Implemented secure data transmission and cloud dashboards for real-time monitoring",
-      "Improved system reliability and fault detection in industrial environments"
+      "Delivered a decentralized exchange and supply-chain tracking application on Ethereum.",
+      "Implemented smart contracts for multi-signature wallets, AMMs, and token issuance.",
+      "Built NFT minting, marketplace, and staking experiences supporting ERC-721 and ERC-1155."
     ],
-    tags: ["C/C++", "Microcontrollers", "Cloud Platforms", "Monitoring"],
+    tags: ["Ethereum", "Solidity", "Web3.js", "NFT", "Smart Contracts"],
   }
 ];
 
-export const mockRepos = [
-  {
-    author: "magictalent",
-    name: "ai-portfolio-starter",
-    description: "Starter kit for a developer portfolio with AI-powered sections.",
-    language: "JavaScript",
-    stars: 128,
-    forks: 24,
-  },
-  {
-    author: "magictalent",
-    name: "ml-dashboard",
-    description: "Realtime ML insights dashboard with React and Node.js.",
-    language: "TypeScript",
-    stars: 96,
-    forks: 19,
-  },
-  {
-    author: "magictalent",
-    name: "edge-chatbot",
-    description: "Low-latency chatbot API with caching and analytics.",
-    language: "Python",
-    stars: 84,
-    forks: 11,
-  },
-  {
-    author: "magictalent",
-    name: "iot-monitor",
-    description: "Device telemetry and alerting service for IoT fleets.",
-    language: "Go",
-    stars: 73,
-    forks: 9,
-  }
-];
+export const mockRepos = [];
 
-export const mockBlogs = [
-  {
-    title: "Designing Reliable AI Features in Production",
-    link: "#",
-    pubDate: "2025-09-20T09:00:00.000Z",
-    content:
-      "A practical playbook for monitoring, guardrails, and iteration cycles for AI features in user-facing products.",
-    categories: ["AI", "Reliability", "Product"],
-  },
-  {
-    title: "From Monolith to Modular: A Migration Strategy",
-    link: "#",
-    pubDate: "2025-07-11T09:00:00.000Z",
-    content:
-      "How to safely migrate a legacy stack into modular services without breaking delivery momentum.",
-    categories: ["Architecture", "Migration"],
-  },
-  {
-    title: "Building Fast Dashboards with React and PostgreSQL",
-    link: "#",
-    pubDate: "2025-05-03T09:00:00.000Z",
-    content:
-      "Performance wins from caching, pre-aggregation, and careful query design for analytics dashboards.",
-    categories: ["Frontend", "Backend", "Performance"],
-  }
-];
+export const mockBlogs = [];
 
-export const interests = [
-  { label: "Writing short stories", icon: "fa-solid fa-book" },
-  { label: "Abstract photography", icon: "fa-solid fa-camera-retro" },
-  { label: "Playing Football", icon: "fa-solid fa-football" },
-  { label: "Playing piano - Beethoven, Chopin, Bach, pop songs", icon: "fa-solid fa-music" },
-  { label: "Watercolor painting", icon: "fa-solid fa-palette" },
-  { label: "Yoga & mindfulness", icon: "fa-solid fa-person-praying" }
-];
+export const interests = [];
 
 export const footer = [
   {
     label: "copyright-text",
-    data: ["Made with care by magictalent"]
+    data: ["Made with care by Tony Tan"]
   }
 ];
 
 export const contactLinks = [
   {
-    link: "tel:+380931895441",
+    link: "tel:+19568100236",
     icon: "fa-solid fa-phone",
-    label: "(380) 93189 5441",
+    label: "1-956-810-0236",
   },
   {
-    link: "mailto:andi.toptalent@gmail.com",
-    icon: "fa-solid fa-envelope", 
-    label: "andi.toptalent@gmail.com",
+    link: "mailto:freelanc1708@gmail.com",
+    icon: "fa-solid fa-envelope",
+    label: "freelanc1708@gmail.com",
   },
   {
-    link: "https://github.com/magictalent",
-    icon: "fa-brands fa-github",
-    label: "github.com/magictalent",
-  },
-  {
-    link: "https://www.linkedin.com/in/magictalent/",
+    link: "https://www.linkedin.com/in/tony-tan-5ba3143b0/",
     icon: "fa-brands fa-linkedin",
     label: "LinkedIn",
   },
